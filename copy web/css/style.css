@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 245, 245);
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.header .logo p {
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.header .logo p a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+.header .logo p a:hover {
+  background-color: #eee;
+}
+.header .sections {
+  display: flex;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+.header .sections li {
+  padding: 10px 20px;
+}
+.header .sections li a {
+  text-decoration: none;
+  color: black;
+}
+.header .sections li:hover {
+  background-color: #eee;
+}
+/* header end*/
+
+/* landing */
+.landing img {
+  width: 100%;
+  position: relative;
+}
+.landing .text p {
+  position: absolute;
+  bottom: 0;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: #777;
+  padding: 0 20px;
+}
+/* landing end*/
+/* About  */
+.About {
+  margin-top: 100px;
+  display: flex;
+  padding: 0 150px;
+}
+.About .img img {
+  height: 550px;
+  border-radius: 4px;
+  filter: opacity(70%);
+}
+.About .aboutinfo {
+  text-align: center;
+  padding: 0 50px;
+}
+.About .aboutinfo h1 {
+  font-weight: 100;
+  letter-spacing: 6px;
+}
+.About .aboutinfo h3 {
+  font-weight: 50;
+  letter-spacing: 6px;
+  margin: 30px 0;
+}
+.About .aboutinfo p:first-of-type {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.About .aboutinfo p:last-of-type {
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #777;
+}
+hr {
+  width: 80%;
+  opacity: 0.5;
+  margin: 120px auto;
+}
+/* Menu */
+.Menu {
+  margin-top: 100px;
+  display: flex;
+  padding: 0 150px;
+  justify-content: space-between;
+}
+.Menu .menuinfo h1 {
+  text-align: center;
+  font-weight: 50;
+  letter-spacing: 4px;
+  font-size: 40px;
+  padding: 20px;
+}
+.Menu .menuinfo h2 {
+  padding: 10px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.Menu .menuinfo h2:not(:first-child) {
+  margin-top: 20px;
+}
+.Menu .menuinfo p {
+  padding: 10px;
+  color: #777;
+}
+.Menu .pic img {
+  width: 100%;
+  height: 80%;
+  opacity: 0.7;
+}
+/* Menu end */
+/* contact */
+.Contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+}
+.Contact .Contactinfo h1 {
+  padding-bottom: 70px;
+  font-weight: 200;
+  letter-spacing: 4px;
+}
+.Contact .Contactinfo p:first-of-type {
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.Contact .Contactinfo h2 {
+  padding-bottom: 20px;
+  color: rgb(14, 107, 133);
+  font-weight: 100;
+}
+.Contact .inputs input {
+  width: 100%;
+  padding: 20px 0;
+  border-width: 1px;
+  border-color: transparent transparent #777 transparent;
+}
+.Contact .inputs button {
+  padding: 15px;
+  background-color: #eee;
+  border: none;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.Contact .inputs button:hover {
+  cursor: pointer;
+  background-color: rgb(185, 185, 185);
+}
+pre {
+  text-align: center;
+  background-color: #eee;
+  margin-top: 120px;
+  text-transform: uppercase;
+}
